@@ -49,5 +49,6 @@ This project is brought to you by Quentin Arnault and is under MIT License.
 
 # TODO LIST
  - add some unit tests
+ - file mime types
  - ... 
  Feel free to suggest some cool features.
