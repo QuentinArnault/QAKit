@@ -1,9 +1,8 @@
 //
-//  QAKitTests.m
-//  QAKitTests
+//  UITableViewHeaderFooterView+kit.h
 //
-//  Created by Quentin ARNAULT on 07/01/13.
-//  Copyright (c) 2013 Quentin Arnault
+//  Created by Quentin ARNAULT on 30/09/14.
+//  Copyright (c) 2014 Quentin Arnault
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy of
 //  this software and associated documentation files (the "Software"), to deal in
@@ -22,27 +21,16 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "QAKitTests.h"
+#import <UIKit/UIKit.h>
 
-@implementation QAKitTests
+@interface UITableViewHeaderFooterView (kit)
 
-- (void)setUp
-{
-    [super setUp];
-    
-    // Set-up code here.
-}
+@property(nonatomic,readonly,retain)IBOutlet UIView  *contentView;
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
-}
++ (NSString *)reuseIdentifier;
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in QAKitTests");
-}
++ (UINib *)nib;
+
++ (CGFloat)height;
 
 @end

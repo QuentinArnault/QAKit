@@ -1,9 +1,4 @@
-//
-//  QAKitTests.h
-//  QAKitTests
-//
-//  Created by Quentin ARNAULT on 07/01/13.
-//  Copyright (c) 2013 Quentin Arnault
+//  Copyright (c) 2014 Quentin Arnault. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy of
 //  this software and associated documentation files (the "Software"), to deal in
@@ -20,10 +15,27 @@
 //  COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-//
 
-#import <SenTestingKit/SenTestingKit.h>
+#import "NSCache+kit.h"
 
-@interface QAKitTests : SenTestCase
+@implementation NSCache (kit)
+
+- (id)objectForKey:(id)key
+withComputeHandler:(NSCacheComputeHandler)computeHandler {
+    id object = [self objectForKey:key];
+    
+    if (!object) {
+        if (computeHandler) {
+            object = computeHandler();
+            
+            if (object) {
+                [self setObject:object
+                         forKey:key];
+            }
+        }
+    }
+    
+    return object;
+}
 
 @end

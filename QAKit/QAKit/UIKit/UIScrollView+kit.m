@@ -1,6 +1,5 @@
 //
 //  UIScrollView+kit.m
-//  ProtoCarousel
 //
 //  Created by Quentin ARNAULT on 06/01/13.
 //  Copyright (c) 2013 Quentin Arnault

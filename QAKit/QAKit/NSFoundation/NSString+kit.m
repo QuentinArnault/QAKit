@@ -1,8 +1,8 @@
 //
-//  UIScrollView+kit.h
+//  NSString+kit.h
 //
-//  Created by Quentin ARNAULT on 06/01/13.
-//  Copyright (c) 2013 Quentin Arnault
+//  Created by Quentin ARNAULT on 30/08/2014.
+//  Copyright (c) 2014 Quentin Arnault
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy of
 //  this software and associated documentation files (the "Software"), to deal in
@@ -21,10 +21,17 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
+#import "NSString+kit.h"
 
-@interface UIScrollView (kit)
+@implementation NSString (kit)
 
-- (void)stackView:(UIView *)view withMargins:(float)margins;
+#pragma mark -
+- (NSString *)QA_urlEncodeUsingEncoding:(NSStringEncoding)encoding {
+	return (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(NULL,
+                                                                                 (CFStringRef)self,
+                                                                                 NULL,
+                                                                                 (CFStringRef)@"!*'\"();+$,/%#[]% ",
+                                                                                 CFStringConvertNSStringEncodingToEncoding(encoding)));
+}
 
 @end

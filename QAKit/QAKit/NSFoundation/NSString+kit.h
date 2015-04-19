@@ -1,7 +1,7 @@
 //
-//  UIScrollView+kit.h
+//  NSString+kit.h
 //
-//  Created by Quentin ARNAULT on 06/01/13.
+//  Created by Quentin ARNAULT on 30/08/2014.
 //  Copyright (c) 2013 Quentin Arnault
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -21,10 +21,10 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface UIScrollView (kit)
+@interface NSString (kit)
 
-- (void)stackView:(UIView *)view withMargins:(float)margins;
+- (NSString *)QA_urlEncodeUsingEncoding:(NSStringEncoding)encoding;
 
 @end
