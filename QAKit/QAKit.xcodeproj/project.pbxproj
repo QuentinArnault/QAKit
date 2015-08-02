@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		A002CCD019DDD45B00A3F0B6 /* UIView+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A002CCCE19DDD45B00A3F0B6 /* UIView+kit.h */; };
 		A002CCD119DDD45B00A3F0B6 /* UIView+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A002CCCF19DDD45B00A3F0B6 /* UIView+kit.m */; };
+		A0254B931B6DEE7B00F2C367 /* NSDate+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0254B911B6DEE7B00F2C367 /* NSDate+kit.h */; };
+		A0254B941B6DEE7B00F2C367 /* NSDate+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0254B921B6DEE7B00F2C367 /* NSDate+kit.m */; };
+		A0254B971B6DEEF300F2C367 /* NSArray+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0254B951B6DEEF300F2C367 /* NSArray+kit.h */; };
+		A0254B981B6DEEF300F2C367 /* NSArray+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0254B961B6DEEF300F2C367 /* NSArray+kit.m */; };
+		A0254B9B1B6DEF9400F2C367 /* UIImage+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0254B991B6DEF9400F2C367 /* UIImage+kit.h */; };
+		A0254B9C1B6DEF9400F2C367 /* UIImage+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0254B9A1B6DEF9400F2C367 /* UIImage+kit.m */; };
+		A0254B9F1B6DF14B00F2C367 /* UITableViewCell+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0254B9D1B6DF14B00F2C367 /* UITableViewCell+kit.h */; };
+		A0254BA01B6DF14B00F2C367 /* UITableViewCell+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0254B9E1B6DF14B00F2C367 /* UITableViewCell+kit.m */; };
 		A050E03D19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A050E03B19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h */; };
 		A050E03E19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A050E03C19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m */; };
 		A053AADF19B135EC00E80E13 /* NSString+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A053AADD19B135EC00E80E13 /* NSString+kit.h */; };
@@ -40,6 +48,15 @@
 /* Begin PBXFileReference section */
 		A002CCCE19DDD45B00A3F0B6 /* UIView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+kit.h"; sourceTree = "<group>"; };
 		A002CCCF19DDD45B00A3F0B6 /* UIView+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+kit.m"; sourceTree = "<group>"; };
+		A0254B901B6DECBF00F2C367 /* QABits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QABits.h; sourceTree = "<group>"; };
+		A0254B911B6DEE7B00F2C367 /* NSDate+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+kit.h"; sourceTree = "<group>"; };
+		A0254B921B6DEE7B00F2C367 /* NSDate+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+kit.m"; sourceTree = "<group>"; };
+		A0254B951B6DEEF300F2C367 /* NSArray+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+kit.h"; sourceTree = "<group>"; };
+		A0254B961B6DEEF300F2C367 /* NSArray+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+kit.m"; sourceTree = "<group>"; };
+		A0254B991B6DEF9400F2C367 /* UIImage+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+kit.h"; sourceTree = "<group>"; };
+		A0254B9A1B6DEF9400F2C367 /* UIImage+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+kit.m"; sourceTree = "<group>"; };
+		A0254B9D1B6DF14B00F2C367 /* UITableViewCell+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+kit.h"; sourceTree = "<group>"; };
+		A0254B9E1B6DF14B00F2C367 /* UITableViewCell+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+kit.m"; sourceTree = "<group>"; };
 		A050E03B19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+kit.h"; sourceTree = "<group>"; };
 		A050E03C19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+kit.m"; sourceTree = "<group>"; };
 		A053AADD19B135EC00E80E13 /* NSString+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+kit.h"; sourceTree = "<group>"; };
@@ -83,10 +100,14 @@
 		A053AADC19B135D500E80E13 /* NSFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				A053AADD19B135EC00E80E13 /* NSString+kit.h */,
-				A053AADE19B135EC00E80E13 /* NSString+kit.m */,
+				A0254B951B6DEEF300F2C367 /* NSArray+kit.h */,
+				A0254B961B6DEEF300F2C367 /* NSArray+kit.m */,
 				A0F083BF19E012B80050453F /* NSCache+kit.h */,
 				A0F083C019E012B80050453F /* NSCache+kit.m */,
+				A0254B911B6DEE7B00F2C367 /* NSDate+kit.h */,
+				A0254B921B6DEE7B00F2C367 /* NSDate+kit.m */,
+				A053AADD19B135EC00E80E13 /* NSString+kit.h */,
+				A053AADE19B135EC00E80E13 /* NSString+kit.m */,
 			);
 			path = NSFoundation;
 			sourceTree = "<group>";
@@ -126,6 +147,7 @@
 				A053AADC19B135D500E80E13 /* NSFoundation */,
 				A0A4754C169AACDF0005FADA /* UIKit */,
 				A0A47527169AACC70005FADA /* Supporting Files */,
+				A0254B901B6DECBF00F2C367 /* QABits.h */,
 			);
 			path = QAKit;
 			sourceTree = "<group>";
@@ -141,9 +163,13 @@
 		A0A4754C169AACDF0005FADA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				A053AAE119B1360900E80E13 /* UIColor+kit.h */,
+				A0254B991B6DEF9400F2C367 /* UIImage+kit.h */,
+				A0254B9A1B6DEF9400F2C367 /* UIImage+kit.m */,
 				A0A4754D169AACF60005FADA /* UIScrollView+kit.h */,
 				A0A4754E169AACF60005FADA /* UIScrollView+kit.m */,
-				A053AAE119B1360900E80E13 /* UIColor+kit.h */,
+				A0254B9D1B6DF14B00F2C367 /* UITableViewCell+kit.h */,
+				A0254B9E1B6DF14B00F2C367 /* UITableViewCell+kit.m */,
 				A050E03B19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h */,
 				A050E03C19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m */,
 				A002CCCE19DDD45B00A3F0B6 /* UIView+kit.h */,
@@ -186,10 +212,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0254B971B6DEEF300F2C367 /* NSArray+kit.h in Headers */,
+				A0254B9B1B6DEF9400F2C367 /* UIImage+kit.h in Headers */,
 				A0A4755A169AADCA0005FADA /* UIScrollView+kit.h in Headers */,
 				A0F083BD19DF2B970050453F /* QANavigationViewController.h in Headers */,
 				A0F083C119E012B80050453F /* NSCache+kit.h in Headers */,
+				A0254B9F1B6DF14B00F2C367 /* UITableViewCell+kit.h in Headers */,
 				A002CCD019DDD45B00A3F0B6 /* UIView+kit.h in Headers */,
+				A0254B931B6DEE7B00F2C367 /* NSDate+kit.h in Headers */,
 				A053AAE319B1360900E80E13 /* UIColor+kit.h in Headers */,
 				A050E03D19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h in Headers */,
 				A053AADF19B135EC00E80E13 /* NSString+kit.h in Headers */,
@@ -281,10 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0254BA01B6DF14B00F2C367 /* UITableViewCell+kit.m in Sources */,
 				A0F083BE19DF2B970050453F /* QANavigationViewController.m in Sources */,
 				A053AAE019B135EC00E80E13 /* NSString+kit.m in Sources */,
+				A0254B941B6DEE7B00F2C367 /* NSDate+kit.m in Sources */,
+				A0254B981B6DEEF300F2C367 /* NSArray+kit.m in Sources */,
 				A050E03E19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m in Sources */,
 				A0A4754F169AACF60005FADA /* UIScrollView+kit.m in Sources */,
+				A0254B9C1B6DEF9400F2C367 /* UIImage+kit.m in Sources */,
 				A0F083C219E012B80050453F /* NSCache+kit.m in Sources */,
 				A002CCD119DDD45B00A3F0B6 /* UIView+kit.m in Sources */,
 			);
@@ -464,6 +498,7 @@
 				A0F083D419E015FA0050453F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

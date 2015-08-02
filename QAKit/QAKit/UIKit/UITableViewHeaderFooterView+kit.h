@@ -27,10 +27,8 @@
 
 @property(nonatomic,readonly,retain)IBOutlet UIView  *contentView;
 
-+ (NSString *)reuseIdentifier;
++ (NSString *)QA_reuseIdentifier;
 
-+ (UINib *)nib;
-
-+ (CGFloat)height;
++ (void)QA_registerAsHeaderFooterViewForTableView:(UITableView *)tableView;
 
 @end

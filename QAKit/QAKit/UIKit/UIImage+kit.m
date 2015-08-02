@@ -1,8 +1,4 @@
-//
-//  UIScrollView+kit.h
-//
-//  Created by Quentin ARNAULT on 06/01/13.
-//  Copyright (c) 2013 Quentin Arnault
+//  Copyright (c) 2015 Quentin Arnault. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy of
 //  this software and associated documentation files (the "Software"), to deal in
@@ -19,12 +15,23 @@
 //  COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-//
 
-#import <UIKit/UIKit.h>
+#import "UIImage+kit.h"
 
-@interface UIScrollView (kit)
+@implementation UIImage (kit)
 
-- (void)stackView:(UIView *)view withMargins:(float)margins;
++ (instancetype)QA_imageWithColor:(UIColor *)color {
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
 
 @end

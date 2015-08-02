@@ -26,7 +26,7 @@
 @implementation UIView (kit)
 
 #pragma mark -
-+ (instancetype)loadViewFromNib {
++ (instancetype)QA_loadViewFromNib {
     UIView *view = nil;
     
     NSArray *views = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self)

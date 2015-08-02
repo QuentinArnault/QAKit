@@ -26,37 +26,17 @@
 @implementation UITableViewHeaderFooterView (kit)
 
 #pragma mark -
-+ (NSString *)reuseIdentifier {
++ (NSString *)QA_reuseIdentifier {
     return NSStringFromClass(self);
 }
 
-+ (UINib *)nib {
-    return [UINib nibWithNibName:[self nibName]
-                          bundle:[NSBundle mainBundle]];
-}
-
-+ (CGFloat)height {
-    static UITableViewHeaderFooterView *sizingView;
++ (void)QA_registerAsHeaderFooterViewForTableView:(UITableView *)tableView {
+    UINib *nib = [UINib nibWithNibName:NSStringFromClass(self)
+                                bundle:nil];
     
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        NSArray *views = [[NSBundle mainBundle] loadNibNamed:[self nibName]
-                                                       owner:self
-                                                     options:nil];
-        
-        if (views.count > 0) {
-            sizingView = [views firstObject];
-        }
-    });
-    
-    CGSize size = [sizingView.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
-    return size.height;
-}
-
-#pragma mark -
-#pragma mark private
-+ (NSString *)nibName {
-    return NSStringFromClass(self);
+    [tableView registerNib:nib
+forHeaderFooterViewReuseIdentifier:[self QA_reuseIdentifier]
+     ];
 }
 
 @end

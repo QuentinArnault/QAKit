@@ -25,6 +25,6 @@
 
 @interface UIView (kit)
 
-+ (instancetype)loadViewFromNib;
++ (instancetype)QA_loadViewFromNib;
 
 @end
