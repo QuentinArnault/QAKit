@@ -9,8 +9,8 @@
 #ifndef QAKit_QABits_h
 #define QAKit_QABits_h
 
-#define QA_CONTAINS_BIT(bitfield, option)   (((bitfield) & (option)) == (option))
-#define QA_FLIP_BIT(bitfield, option)       ((bitfield) ^= (option))
-#define QA_SET_BIT(bitfield, option)        ((bitfield) |= (option))
+#define QA_BIT_CONTAINS(bitfield, option)   (((bitfield) & (option)) == (option))
+#define QA_BIT_FLIP(bitfield, option)       ((bitfield) ^= (option))
+#define QA_BIT_SET(bitfield, option)        ((bitfield) |= (option))
 
 #endif
