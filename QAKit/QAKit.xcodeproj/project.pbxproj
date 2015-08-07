@@ -69,6 +69,7 @@
 		A0A47535169AACC70005FADA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A0A4754D169AACF60005FADA /* UIScrollView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+kit.h"; sourceTree = "<group>"; };
 		A0A4754E169AACF60005FADA /* UIScrollView+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+kit.m"; sourceTree = "<group>"; };
+		A0B8E4F61B74B63F00C2C77A /* QADispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QADispatch.h; sourceTree = "<group>"; };
 		A0F083BB19DF2B970050453F /* QANavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QANavigationViewController.h; sourceTree = "<group>"; };
 		A0F083BC19DF2B970050453F /* QANavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QANavigationViewController.m; sourceTree = "<group>"; };
 		A0F083BF19E012B80050453F /* NSCache+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCache+kit.h"; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 				A0A4754C169AACDF0005FADA /* UIKit */,
 				A0A47527169AACC70005FADA /* Supporting Files */,
 				A0254B901B6DECBF00F2C367 /* QABits.h */,
+				A0B8E4F61B74B63F00C2C77A /* QADispatch.h */,
 			);
 			path = QAKit;
 			sourceTree = "<group>";
