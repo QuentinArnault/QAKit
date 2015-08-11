@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A002738A1B7A519400425A65 /* NSMutableArray+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A00273881B7A519400425A65 /* NSMutableArray+kit.h */; };
+		A002738B1B7A519400425A65 /* NSMutableArray+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A00273891B7A519400425A65 /* NSMutableArray+kit.m */; };
 		A002CCD019DDD45B00A3F0B6 /* UIView+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A002CCCE19DDD45B00A3F0B6 /* UIView+kit.h */; };
 		A002CCD119DDD45B00A3F0B6 /* UIView+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A002CCCF19DDD45B00A3F0B6 /* UIView+kit.m */; };
 		A0254B931B6DEE7B00F2C367 /* NSDate+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0254B911B6DEE7B00F2C367 /* NSDate+kit.h */; };
@@ -46,6 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A00273881B7A519400425A65 /* NSMutableArray+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+kit.h"; sourceTree = "<group>"; };
+		A00273891B7A519400425A65 /* NSMutableArray+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+kit.m"; sourceTree = "<group>"; };
 		A002CCCE19DDD45B00A3F0B6 /* UIView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+kit.h"; sourceTree = "<group>"; };
 		A002CCCF19DDD45B00A3F0B6 /* UIView+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+kit.m"; sourceTree = "<group>"; };
 		A0254B901B6DECBF00F2C367 /* QABits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QABits.h; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				A0254B921B6DEE7B00F2C367 /* NSDate+kit.m */,
 				A053AADD19B135EC00E80E13 /* NSString+kit.h */,
 				A053AADE19B135EC00E80E13 /* NSString+kit.m */,
+				A00273881B7A519400425A65 /* NSMutableArray+kit.h */,
+				A00273891B7A519400425A65 /* NSMutableArray+kit.m */,
 			);
 			path = NSFoundation;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 				A053AAE319B1360900E80E13 /* UIColor+kit.h in Headers */,
 				A050E03D19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h in Headers */,
 				A053AADF19B135EC00E80E13 /* NSString+kit.h in Headers */,
+				A002738A1B7A519400425A65 /* NSMutableArray+kit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +330,7 @@
 				A0254B9C1B6DEF9400F2C367 /* UIImage+kit.m in Sources */,
 				A0F083C219E012B80050453F /* NSCache+kit.m in Sources */,
 				A002CCD119DDD45B00A3F0B6 /* UIView+kit.m in Sources */,
+				A002738B1B7A519400425A65 /* NSMutableArray+kit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
