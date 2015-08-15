@@ -27,4 +27,6 @@
 
 - (NSString *)QA_urlEncodeUsingEncoding:(NSStringEncoding)encoding;
 
+- (BOOL)QA_isValidEmail;
+
 @end

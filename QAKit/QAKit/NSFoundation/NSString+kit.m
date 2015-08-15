@@ -34,4 +34,11 @@
                                                                                  CFStringConvertNSStringEncodingToEncoding(encoding)));
 }
 
+- (BOOL)QA_isValidEmail {
+    NSString *emailRegex = @"^.+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2}[A-Za-z]*$";
+    
+    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
+    
+    return [emailTest evaluateWithObject:self];
+}
 @end
