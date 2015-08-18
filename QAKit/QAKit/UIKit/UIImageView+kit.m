@@ -11,7 +11,7 @@
 @implementation UIImageView (kit)
 
 #pragma mark -
-- (void)QA_setImageRenderingMode:(UIImageRenderingMode)renderMode
+- (void)setQA_imageRenderingMode:(UIImageRenderingMode)renderMode
 {
     NSAssert(self.image, @"Image must be set before setting rendering mode");
     self.image = [self.image imageWithRenderingMode:renderMode];

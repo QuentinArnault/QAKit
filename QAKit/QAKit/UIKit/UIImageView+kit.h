@@ -10,6 +10,6 @@
 
 @interface UIImageView (kit)
 
-- (void)QA_setImageRenderingMode:(UIImageRenderingMode)renderMode;
+- (void)setQA_imageRenderingMode:(UIImageRenderingMode)renderMode;
 
 @end
