@@ -42,7 +42,7 @@
     return [emailTest evaluateWithObject:self];
 }
 
-- (NSString *)md5String {
+- (NSString *)QA_md5String {
     const char *cStr = [self UTF8String];
     unsigned char result [CC_MD5_DIGEST_LENGTH];
     CC_MD5( cStr, (CC_LONG)strlen(cStr), result );
