@@ -19,6 +19,8 @@
 		A0254B9C1B6DEF9400F2C367 /* UIImage+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0254B9A1B6DEF9400F2C367 /* UIImage+kit.m */; };
 		A0254B9F1B6DF14B00F2C367 /* UITableViewCell+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0254B9D1B6DF14B00F2C367 /* UITableViewCell+kit.h */; };
 		A0254BA01B6DF14B00F2C367 /* UITableViewCell+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0254B9E1B6DF14B00F2C367 /* UITableViewCell+kit.m */; };
+		A02D4E2E1B832EF400427EB7 /* UIImageView+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D4E2C1B832EF400427EB7 /* UIImageView+kit.h */; };
+		A02D4E2F1B832EF400427EB7 /* UIImageView+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A02D4E2D1B832EF400427EB7 /* UIImageView+kit.m */; };
 		A050E03D19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A050E03B19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h */; };
 		A050E03E19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A050E03C19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m */; };
 		A053AADF19B135EC00E80E13 /* NSString+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A053AADD19B135EC00E80E13 /* NSString+kit.h */; };
@@ -61,6 +63,8 @@
 		A0254B9A1B6DEF9400F2C367 /* UIImage+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+kit.m"; sourceTree = "<group>"; };
 		A0254B9D1B6DF14B00F2C367 /* UITableViewCell+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+kit.h"; sourceTree = "<group>"; };
 		A0254B9E1B6DF14B00F2C367 /* UITableViewCell+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+kit.m"; sourceTree = "<group>"; };
+		A02D4E2C1B832EF400427EB7 /* UIImageView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+kit.h"; sourceTree = "<group>"; };
+		A02D4E2D1B832EF400427EB7 /* UIImageView+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+kit.m"; sourceTree = "<group>"; };
 		A050E03B19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+kit.h"; sourceTree = "<group>"; };
 		A050E03C19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+kit.m"; sourceTree = "<group>"; };
 		A053AADD19B135EC00E80E13 /* NSString+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+kit.h"; sourceTree = "<group>"; };
@@ -184,6 +188,8 @@
 				A002CCCF19DDD45B00A3F0B6 /* UIView+kit.m */,
 				A0F083BB19DF2B970050453F /* QANavigationViewController.h */,
 				A0F083BC19DF2B970050453F /* QANavigationViewController.m */,
+				A02D4E2C1B832EF400427EB7 /* UIImageView+kit.h */,
+				A02D4E2D1B832EF400427EB7 /* UIImageView+kit.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0254B971B6DEEF300F2C367 /* NSArray+kit.h in Headers */,
+				A02D4E2E1B832EF400427EB7 /* UIImageView+kit.h in Headers */,
 				A0254B9B1B6DEF9400F2C367 /* UIImage+kit.h in Headers */,
 				A0A4755A169AADCA0005FADA /* UIScrollView+kit.h in Headers */,
 				A0F083BD19DF2B970050453F /* QANavigationViewController.h in Headers */,
@@ -327,6 +334,7 @@
 				A0254B981B6DEEF300F2C367 /* NSArray+kit.m in Sources */,
 				A050E03E19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m in Sources */,
 				A0A4754F169AACF60005FADA /* UIScrollView+kit.m in Sources */,
+				A02D4E2F1B832EF400427EB7 /* UIImageView+kit.m in Sources */,
 				A0254B9C1B6DEF9400F2C367 /* UIImage+kit.m in Sources */,
 				A0F083C219E012B80050453F /* NSCache+kit.m in Sources */,
 				A002CCD119DDD45B00A3F0B6 /* UIView+kit.m in Sources */,
