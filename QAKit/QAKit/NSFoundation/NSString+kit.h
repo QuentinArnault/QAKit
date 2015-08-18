@@ -29,4 +29,6 @@
 
 - (BOOL)QA_isValidEmail;
 
+- (NSString *)md5String;
+
 @end
