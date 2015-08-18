@@ -21,6 +21,8 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+#import <CommonCrypto/CommonDigest.h>
+
 #import "NSString+kit.h"
 
 @implementation NSString (kit)
