@@ -12,7 +12,7 @@
 
 #pragma mark -
 - (NSDictionary *)QA_parameters {
-    NSArray *parameters = [request.URL.query componentsSeparatedByString:@"&"];
+    NSArray *parameters = [self.query componentsSeparatedByString:@"&"];
     
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     for (NSString *parameter in parameters) {
