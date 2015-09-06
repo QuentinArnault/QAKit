@@ -23,6 +23,8 @@
 		A02C1AE61B85C51A007FBE1B /* NSURL+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A02C1AE41B85C51A007FBE1B /* NSURL+kit.m */; };
 		A02D4E2E1B832EF400427EB7 /* UIImageView+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D4E2C1B832EF400427EB7 /* UIImageView+kit.h */; };
 		A02D4E2F1B832EF400427EB7 /* UIImageView+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A02D4E2D1B832EF400427EB7 /* UIImageView+kit.m */; };
+		A03BFEB21B9C480100E26C6C /* UIScreen+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A03BFEB01B9C480100E26C6C /* UIScreen+kit.h */; };
+		A03BFEB31B9C480100E26C6C /* UIScreen+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BFEB11B9C480100E26C6C /* UIScreen+kit.m */; };
 		A050E03D19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A050E03B19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h */; };
 		A050E03E19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A050E03C19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m */; };
 		A053AADF19B135EC00E80E13 /* NSString+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A053AADD19B135EC00E80E13 /* NSString+kit.h */; };
@@ -69,6 +71,8 @@
 		A02C1AE41B85C51A007FBE1B /* NSURL+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+kit.m"; sourceTree = "<group>"; };
 		A02D4E2C1B832EF400427EB7 /* UIImageView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+kit.h"; sourceTree = "<group>"; };
 		A02D4E2D1B832EF400427EB7 /* UIImageView+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+kit.m"; sourceTree = "<group>"; };
+		A03BFEB01B9C480100E26C6C /* UIScreen+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+kit.h"; sourceTree = "<group>"; };
+		A03BFEB11B9C480100E26C6C /* UIScreen+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+kit.m"; sourceTree = "<group>"; };
 		A050E03B19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+kit.h"; sourceTree = "<group>"; };
 		A050E03C19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+kit.m"; sourceTree = "<group>"; };
 		A053AADD19B135EC00E80E13 /* NSString+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+kit.h"; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 				A0F083BC19DF2B970050453F /* QANavigationViewController.m */,
 				A02D4E2C1B832EF400427EB7 /* UIImageView+kit.h */,
 				A02D4E2D1B832EF400427EB7 /* UIImageView+kit.m */,
+				A03BFEB01B9C480100E26C6C /* UIScreen+kit.h */,
+				A03BFEB11B9C480100E26C6C /* UIScreen+kit.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 				A0F083C119E012B80050453F /* NSCache+kit.h in Headers */,
 				A0254B9F1B6DF14B00F2C367 /* UITableViewCell+kit.h in Headers */,
 				A002CCD019DDD45B00A3F0B6 /* UIView+kit.h in Headers */,
+				A03BFEB21B9C480100E26C6C /* UIScreen+kit.h in Headers */,
 				A0254B931B6DEE7B00F2C367 /* NSDate+kit.h in Headers */,
 				A053AAE319B1360900E80E13 /* UIColor+kit.h in Headers */,
 				A050E03D19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h in Headers */,
@@ -336,6 +343,7 @@
 			files = (
 				A0254BA01B6DF14B00F2C367 /* UITableViewCell+kit.m in Sources */,
 				A0F083BE19DF2B970050453F /* QANavigationViewController.m in Sources */,
+				A03BFEB31B9C480100E26C6C /* UIScreen+kit.m in Sources */,
 				A053AAE019B135EC00E80E13 /* NSString+kit.m in Sources */,
 				A0254B941B6DEE7B00F2C367 /* NSDate+kit.m in Sources */,
 				A0254B981B6DEEF300F2C367 /* NSArray+kit.m in Sources */,
