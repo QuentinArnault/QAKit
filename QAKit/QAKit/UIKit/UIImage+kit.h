@@ -22,4 +22,6 @@
 
 + (instancetype)QA_imageWithColor:(UIColor *)color;
 
++ (instancetype)QA_imageForDeviceNamed:(NSString *)imageName;
+
 @end

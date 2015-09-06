@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSUInteger, QAScreenType) {
+    QAScreenTypeUnknown
+    , QAScreenTypeiPhone
+    , QAScreenTypeiPhoneRetina
+    , QAScreenTypeiPhone5
+    , QAScreenTypeiPhone6
+    , QAScreenTypeiPhone6plus
+    , QAScreenTypeiPad
+    , QAScreenTypeiPadRetina
+};
+
 @interface UIScreen (kit)
 
-@property (nonatomic, readonly, getter=QA_isiPhone6PlusType) BOOL iPhone6PlusType;
+- (QAScreenType)QA_screenType;
 
 @end

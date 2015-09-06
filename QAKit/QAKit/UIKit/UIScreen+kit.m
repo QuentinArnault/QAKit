@@ -8,14 +8,39 @@
 
 #import "UIScreen+kit.h"
 
-static CGFloat const kiPhone6PlusTypeHeight = 736.f;
-
 @implementation UIScreen (kit)
 
 #pragma mark -
 #pragma mark properties
-- (BOOL)QA_isIPhone6PlusType {
-    return (kiPhone6PlusTypeHeight == self.bounds.size.height);
+
+- (QAScreenType)QA_screenType {
+    QAScreenType screenType = QAScreenTypeUnknown;
+    
+    CGFloat height = (CGFloat) fmaxf((float)self.bounds.size.height
+                                     , ((float)self.bounds.size.width));
+    
+    switch ((NSInteger)height) {
+        case 480:
+            screenType = (( self.scale > 1.0) ? QAScreenTypeiPhoneRetina : QAScreenTypeiPhone );
+            break;
+        case 568:
+            screenType = QAScreenTypeiPhone5;
+            break;
+        case 667:
+            screenType = QAScreenTypeiPhone6;
+            break;
+        case 736:
+            screenType = QAScreenTypeiPhone6plus;
+            break;
+        case 1024:
+            screenType = (( self.scale > 1.0) ? QAScreenTypeiPadRetina : QAScreenTypeiPad );
+            break;
+        default:
+            screenType =  QAScreenTypeUnknown;
+            break;
+    }
+    
+    return screenType;
 }
 
 @end
