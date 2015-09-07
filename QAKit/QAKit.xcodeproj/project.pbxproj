@@ -33,6 +33,8 @@
 		A0A47525169AACC70005FADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A47524169AACC70005FADA /* Foundation.framework */; };
 		A0A4754F169AACF60005FADA /* UIScrollView+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4754E169AACF60005FADA /* UIScrollView+kit.m */; };
 		A0A4755A169AADCA0005FADA /* UIScrollView+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A4754D169AACF60005FADA /* UIScrollView+kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0A772A41B9E4D0300549D3F /* MFMailComposeViewController+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A772A21B9E4D0300549D3F /* MFMailComposeViewController+kit.h */; };
+		A0A772A51B9E4D0300549D3F /* MFMailComposeViewController+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A772A31B9E4D0300549D3F /* MFMailComposeViewController+kit.m */; };
 		A0F083BD19DF2B970050453F /* QANavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F083BB19DF2B970050453F /* QANavigationViewController.h */; };
 		A0F083BE19DF2B970050453F /* QANavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F083BC19DF2B970050453F /* QANavigationViewController.m */; };
 		A0F083C119E012B80050453F /* NSCache+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F083BF19E012B80050453F /* NSCache+kit.h */; };
@@ -85,6 +87,8 @@
 		A0A47535169AACC70005FADA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A0A4754D169AACF60005FADA /* UIScrollView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+kit.h"; sourceTree = "<group>"; };
 		A0A4754E169AACF60005FADA /* UIScrollView+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+kit.m"; sourceTree = "<group>"; };
+		A0A772A21B9E4D0300549D3F /* MFMailComposeViewController+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MFMailComposeViewController+kit.h"; sourceTree = "<group>"; };
+		A0A772A31B9E4D0300549D3F /* MFMailComposeViewController+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MFMailComposeViewController+kit.m"; sourceTree = "<group>"; };
 		A0B8E4F61B74B63F00C2C77A /* QADispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QADispatch.h; sourceTree = "<group>"; };
 		A0F083BB19DF2B970050453F /* QANavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QANavigationViewController.h; sourceTree = "<group>"; };
 		A0F083BC19DF2B970050453F /* QANavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QANavigationViewController.m; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 		A0A47526169AACC70005FADA /* QAKit */ = {
 			isa = PBXGroup;
 			children = (
+				A0A772A11B9E4CE900549D3F /* MessageUI */,
 				A053AADC19B135D500E80E13 /* NSFoundation */,
 				A0A4754C169AACDF0005FADA /* UIKit */,
 				A0A47527169AACC70005FADA /* Supporting Files */,
@@ -204,6 +209,15 @@
 				A03BFEB11B9C480100E26C6C /* UIScreen+kit.m */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A0A772A11B9E4CE900549D3F /* MessageUI */ = {
+			isa = PBXGroup;
+			children = (
+				A0A772A21B9E4D0300549D3F /* MFMailComposeViewController+kit.h */,
+				A0A772A31B9E4D0300549D3F /* MFMailComposeViewController+kit.m */,
+			);
+			path = MessageUI;
 			sourceTree = "<group>";
 		};
 		A0F083CD19E015FA0050453F /* QAKit Tests */ = {
@@ -253,6 +267,7 @@
 				A050E03D19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h in Headers */,
 				A053AADF19B135EC00E80E13 /* NSString+kit.h in Headers */,
 				A002738A1B7A519400425A65 /* NSMutableArray+kit.h in Headers */,
+				A0A772A41B9E4D0300549D3F /* MFMailComposeViewController+kit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +364,7 @@
 				A0254B981B6DEEF300F2C367 /* NSArray+kit.m in Sources */,
 				A050E03E19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m in Sources */,
 				A0A4754F169AACF60005FADA /* UIScrollView+kit.m in Sources */,
+				A0A772A51B9E4D0300549D3F /* MFMailComposeViewController+kit.m in Sources */,
 				A02D4E2F1B832EF400427EB7 /* UIImageView+kit.m in Sources */,
 				A0254B9C1B6DEF9400F2C367 /* UIImage+kit.m in Sources */,
 				A02C1AE61B85C51A007FBE1B /* NSURL+kit.m in Sources */,
