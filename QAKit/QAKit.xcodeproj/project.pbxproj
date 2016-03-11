@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A61414E1C93670A00136D70 /* NSDictionary+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A61414C1C93670A00136D70 /* NSDictionary+kit.h */; };
+		4A61414F1C93670A00136D70 /* NSDictionary+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61414D1C93670A00136D70 /* NSDictionary+kit.m */; };
 		A002738A1B7A519400425A65 /* NSMutableArray+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A00273881B7A519400425A65 /* NSMutableArray+kit.h */; };
 		A002738B1B7A519400425A65 /* NSMutableArray+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = A00273891B7A519400425A65 /* NSMutableArray+kit.m */; };
 		A002CCD019DDD45B00A3F0B6 /* UIView+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A002CCCE19DDD45B00A3F0B6 /* UIView+kit.h */; };
@@ -56,6 +58,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A61414C1C93670A00136D70 /* NSDictionary+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+kit.h"; sourceTree = "<group>"; };
+		4A61414D1C93670A00136D70 /* NSDictionary+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+kit.m"; sourceTree = "<group>"; };
 		A00273881B7A519400425A65 /* NSMutableArray+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+kit.h"; sourceTree = "<group>"; };
 		A00273891B7A519400425A65 /* NSMutableArray+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+kit.m"; sourceTree = "<group>"; };
 		A002CCCE19DDD45B00A3F0B6 /* UIView+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+kit.h"; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				A0F083C019E012B80050453F /* NSCache+kit.m */,
 				A0254B911B6DEE7B00F2C367 /* NSDate+kit.h */,
 				A0254B921B6DEE7B00F2C367 /* NSDate+kit.m */,
+				4A61414C1C93670A00136D70 /* NSDictionary+kit.h */,
+				4A61414D1C93670A00136D70 /* NSDictionary+kit.m */,
 				A053AADD19B135EC00E80E13 /* NSString+kit.h */,
 				A053AADE19B135EC00E80E13 /* NSString+kit.m */,
 				A00273881B7A519400425A65 /* NSMutableArray+kit.h */,
@@ -265,6 +271,7 @@
 				A0254B931B6DEE7B00F2C367 /* NSDate+kit.h in Headers */,
 				A053AAE319B1360900E80E13 /* UIColor+kit.h in Headers */,
 				A050E03D19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.h in Headers */,
+				4A61414E1C93670A00136D70 /* NSDictionary+kit.h in Headers */,
 				A053AADF19B135EC00E80E13 /* NSString+kit.h in Headers */,
 				A002738A1B7A519400425A65 /* NSMutableArray+kit.h in Headers */,
 				A0A772A41B9E4D0300549D3F /* MFMailComposeViewController+kit.h in Headers */,
@@ -363,6 +370,7 @@
 				A0254B941B6DEE7B00F2C367 /* NSDate+kit.m in Sources */,
 				A0254B981B6DEEF300F2C367 /* NSArray+kit.m in Sources */,
 				A050E03E19DB3F7400C0D7CF /* UITableViewHeaderFooterView+kit.m in Sources */,
+				4A61414F1C93670A00136D70 /* NSDictionary+kit.m in Sources */,
 				A0A4754F169AACF60005FADA /* UIScrollView+kit.m in Sources */,
 				A0A772A51B9E4D0300549D3F /* MFMailComposeViewController+kit.m in Sources */,
 				A02D4E2F1B832EF400427EB7 /* UIImageView+kit.m in Sources */,
