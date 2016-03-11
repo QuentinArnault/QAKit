@@ -15,7 +15,7 @@
 @implementation QANavigationViewController
 
 #pragma mark -
-- (NSUInteger)supportedInterfaceOrientations {
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
     NSUInteger supportedInterfaceOrientations;
     
     if (self.topViewController) {
