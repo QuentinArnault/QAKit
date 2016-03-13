@@ -13,9 +13,7 @@
 #pragma mark -
 - (id _Nonnull)QA_objectForKey:(id _Nonnull)aKey
                    withDefault:(id _Nonnull)defaultValue {
-    id object = [self objectForKey:aKey];
-    
-    return object?object:defaultValue;
+    return [self objectForKey:aKey]?:defaultValue;
 }
 
 @end
