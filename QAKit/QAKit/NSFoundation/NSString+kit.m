@@ -29,8 +29,11 @@
 
 #pragma mark -
 - (NSString *)QA_urlEncodeUsingEncoding:(NSStringEncoding)encoding {
+    NSMutableString *string = [self mutableCopy];
+    
+    CFStringTransform((__bridge CFMutableStringRef)string, NULL, kCFStringTransformStripCombiningMarks, NO);
 	return (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(NULL,
-                                                                                 (CFStringRef)self,
+                                                                                 (CFStringRef)string,
                                                                                  NULL,
                                                                                  (CFStringRef)@"!*'\"();+$,/%#[]% ",
                                                                                  CFStringConvertNSStringEncodingToEncoding(encoding)));

@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # Library description
   s.name         = 'QAKit'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.author       = { 'Quentin ARNAULT' => 'quentin.arnault@gmail.com' }
   s.license      = {
   	:type => 'MIT',
