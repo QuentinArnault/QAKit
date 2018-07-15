@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A190DD620FC02DB00D5AFA4 /* UIColor+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A190DD520FC02DB00D5AFA4 /* UIColor+kit.m */; };
 		4A61414E1C93670A00136D70 /* NSDictionary+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A61414C1C93670A00136D70 /* NSDictionary+kit.h */; };
 		4A61414F1C93670A00136D70 /* NSDictionary+kit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61414D1C93670A00136D70 /* NSDictionary+kit.m */; };
 		A002738A1B7A519400425A65 /* NSMutableArray+kit.h in Headers */ = {isa = PBXBuildFile; fileRef = A00273881B7A519400425A65 /* NSMutableArray+kit.h */; };
@@ -58,6 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A190DD520FC02DB00D5AFA4 /* UIColor+kit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+kit.m"; sourceTree = "<group>"; };
 		4A61414C1C93670A00136D70 /* NSDictionary+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+kit.h"; sourceTree = "<group>"; };
 		4A61414D1C93670A00136D70 /* NSDictionary+kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+kit.m"; sourceTree = "<group>"; };
 		A00273881B7A519400425A65 /* NSMutableArray+kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+kit.h"; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				A053AAE119B1360900E80E13 /* UIColor+kit.h */,
+				4A190DD520FC02DB00D5AFA4 /* UIColor+kit.m */,
 				A0254B991B6DEF9400F2C367 /* UIImage+kit.h */,
 				A0254B9A1B6DEF9400F2C367 /* UIImage+kit.m */,
 				A0A4754D169AACF60005FADA /* UIScrollView+kit.h */,
@@ -366,6 +369,7 @@
 				A0254BA01B6DF14B00F2C367 /* UITableViewCell+kit.m in Sources */,
 				A0F083BE19DF2B970050453F /* QANavigationViewController.m in Sources */,
 				A03BFEB31B9C480100E26C6C /* UIScreen+kit.m in Sources */,
+				4A190DD620FC02DB00D5AFA4 /* UIColor+kit.m in Sources */,
 				A053AAE019B135EC00E80E13 /* NSString+kit.m in Sources */,
 				A0254B941B6DEE7B00F2C367 /* NSDate+kit.m in Sources */,
 				A0254B981B6DEEF300F2C367 /* NSArray+kit.m in Sources */,
